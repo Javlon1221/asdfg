@@ -1,0 +1,42 @@
+.container{
+    max-width: 1472px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+
+.nav_div{
+    display: none;
+}
+
+@media(max-width:990px){
+    .navs{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    img{
+        margin: 0 auto;
+    }
+}
+
+
+@media(max-width:600px){
+   .navbar_ul{
+    display: none;
+   } 
+   .nav_div{
+    display: flex;
+   }
+   
+   .nav_img{
+    display: none;
+   }
+   .nav_txt{
+    position: absolute;
+   }
+   .navs{
+    padding:0;
+   }
+}

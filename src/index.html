@@ -6,21 +6,124 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100..900&family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="container m-auto">
-        <nav class="navbar flex justify-between items-center">
+    <header class="container ">
+        <nav class="navbar  flex justify-between items-center sticky mt-2.5">
             <div class="">
                 <img src="./PHOTOs/Logo.png" alt="">
             </div>
-            <ul class="flex justify-between items-center gap-2.5 max-w[500x] ">
+            <ul class="navbar_ul flex justify-between items-center gap-2.5 max-w[500x] ">
                 <li><a href="#"><img src="./PHOTOs/search1.svg" alt=""></a></li>
                 <li><a href="#"><img src="./PHOTOs/shopping-cart1.svg" alt=""></a></li>
-                <button class="py-2 px-8 border border-red-500 border-solid"><span>Sign Up</span></button>
-                <button class="py-2 px-8 border border-red-500 border-solid"><span>Sign In</span></button>
+                <button class="py-2 px-8 text-[#156963] border border-white cursor-pointer border-solid hover:bg-[#156963] font-[700] hover:text-white"><span>Sign Up</span></button>
+                <button class="py-2 px-8 text-white bg-[#156963] border cursor-pointer border-[#156963] border-solid font-[700] hover:bg-white hover:text-[#156963]"><span>Sign In</span></button>
             </ul>
-
+            <div class="nav_div w-[35px] h-[35px] flex justify-center items-center bg-[#156963] rounded-[50px] text-center">M</div>
         </nav>
+        <div class="navs flex absolute justify-between m-auto">
+            <img class="nav_img bg-cover bg-center" src="./PHOTOs/Mask_Group.png" alt="">
+            <div class="pt-[186px] pl-[77px] pr-[76px] m-auto">
+                <div class="flex flex-wrap">
+                    <div class="nav_txt max-w-[520px] max-h-[286px]">
+                        <h1 class="font-[500] font-['Montserrat'] text-[68px] leading-[82px] text-[#156963]">Kembang Flower Mantap</h1>
+                        <p class="text-[#2C1500] font-['Montserrat'] opacity-80 text-[18px] pt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+                    </div>
+                    <div class="flex flex-wrap m-auto">
+                        <button class=" cursor-pointer mt-[100px] py-[38px] px-[48px] text-center hover:bg-[#156963] text-[#156963] hover:text-white">
+                            <span class="text-[F2F2F2]"><-- Previous</span><p class="font-[500] text-3xl leading-10">Rahasia Plant</p> </button>
+                        <button class="cursor-pointer py-[38px] mt-[100px] px-[48px] text-center border border-solid bg-[#156963] text-white border-[#156963] hover:bg-white hover:text-[#156963]">
+                            <span class="">NEXT --></span><p class="font-[500] text-3xl leading-10">Rahasia Plant</p></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
+    <main class="container">
+        <section>
+            <div class=" flex mt-[800px] flex-wrap gap-5 justify-between ">              
+                <img src="../images/Group12.svg" alt="">
+                <img src="../images/Group13.svg" alt="">
+                <img src="../images/Group14.svg" alt="">
+                <img src="../images/Group15.svg" alt="">
+            </div>
+        </section>
+        <section>
+            <div>
+                <div class="flex justify-between mt-20 mb-4 ">
+                    <h2>Featured Plants</h2>
+                    <button class="py-2.5 px-2.5 border border-[#E0E0E0] border-solid">Cheaper First</button>
+                </div>
+            </div>
+            <div class="border-2 border-[#E0E0E0] border-solid w-[100%]"></div>
+        </section>
+        <section>
+            <div class="m-auto">
+                <div class="mt-[24px] flex justify-between flex-wrap ">
+                    <div class="max-w-[217px]">
+                        <div>
+                            <img src="../imaga/Mask Group.png" alt="">
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p class="font-normal text-[16px] leading-5 font-['Montserrat']">Kaktus Plants</p>
+                            <strong class="font-[600] text-[16px]">IDR 85.000</strong>
+                        </div>
+                    </div>
+                    <div class="max-w-[217px]">
+                        <div>
+                            <img src="../imaga/Mask Group (1).png" alt="">
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p class="font-normal text-[16px] leading-5 font-['Montserrat']">Landak Plants</p>
+                            <strong class="font-[600] text-[16px]">IDR 85.000</strong>
+                        </div>
+                    </div>
+                    <div class="max-w-[217px]">
+                        <div>
+                            <img src="../imaga/Mask Group (2).png" alt="">
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p class="font-normal text-[16px] leading-5 font-['Montserrat']">Kecubung Plants</p>
+                            <strong class="font-[600] text-[16px]">IDR 85.000</strong>
+                        </div>
+                    </div>
+                    <div class="max-w-[217px]">
+                        <div>
+                            <img src="../imaga/Mask Group (3).png" alt="">
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p class="font-normal text-[16px] leading-5 font-['Montserrat']">Kecubung Plants</p>
+                            <strong class="font-[600] text-[16px]">IDR 85.000</strong>
+                        </div>
+                    </div>
+                    <div class="max-w-[217px]">
+                        <div>
+                            <img src="../imaga/Mask Group (4).png   " alt="">
+                        </div>
+                        <div class="text-center mt-[16px]">
+                            <p class="font-normal text-[16px] leading-5 font-['Montserrat']">Kaktus Plants</p>
+                            <strong class="font-[600] text-[16px]">IDR 85.000</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="flex flex-wrap mt-20 gap-[84px] items-center justify-center">
+                <div class="">
+                    <div class="max-w-[520px] mb-[74px]">
+                        <h1 class="font-bold text-[40px] font-['Montserrat']">Buy more plants, it helps you to be relaxed </h1>
+                        <p class="font-normal text-[16px] font-['Montserrat'] text-[#2C1500] ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida gravida aliquam. Pellentesque et lobortis nisl. Sed et mauris justo. Nulla eu enim non mauris maximus dignissim. Maecenas vitae eros sapien. Quisque pellentesque tempus dignissim.</p>
+                    </div>
+                    <img src="./PHOTOs/Mask Group (5).png" alt="">
+                </div>
+                <img src="./PHOTOs/Mask Group (6).png" alt="">
+            </div>
+        </section>
+    </main>
+
 </body>
 </html>
